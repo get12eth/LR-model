@@ -1,3 +1,39 @@
+/.venv/
+/.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.vscode/
+/.ipynb_checkpoints/
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Ignore site-packages and other virtualenv content if accidentally added
+/.venv/Lib/
+/.venv/Scripts/
+/.venv/Include/
 # Virtual environment
 .venv/
 venv/

@@ -6,11 +6,7 @@ import json
 import time
 import numpy as np
 import matplotlib.pyplot as plt
-import warnings
-from sklearn.exceptions import InconsistentVersionWarning
-
-# Temporarily suppress sklearn InconsistentVersionWarning while we resave artifacts
-warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
+# Note: sklearn version mismatch was addressed by re-saving artifacts; no runtime suppression retained.
 
 # --- 1. Load Assets ---
 try:

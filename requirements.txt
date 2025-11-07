@@ -1,5 +1,9 @@
-streamlit 
-scikit-learn 
-joblib 
+streamlit
+scikit-learn
+joblib
 matplotlib
 seaborn
+pandas
+numpy
+altair
+vega_datasets
